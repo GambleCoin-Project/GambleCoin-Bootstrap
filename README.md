@@ -1,3 +1,13 @@
+```
+Current Bootstrap
+Date:  
+Block: 
+MD5 Checksum: 705E1BA224E1F8B1BF47E45AEE5C18DC
+SHA-1 Checksum: C47B0E27FCFE0AC0A2B4B9CD37190A6590BE791F
+SHA-256 Checksum: 79D6FFC1A5C462863836197D79DC565B7E199EAE3AED60F523CCCBE7C3B6079E
+SHA-512 Checksum: 1F40B813A9A9B36A52A1B63FB4E54E988B689E6D4A312BBC2799A728E09F85E7EDF97C1914D9E51FB3092CA6BB017E7DC2A308FDE79C61DBDE2E8C95D7802F66
+```
+
 # Official GambleCoin Bootstrap Instructions
 ## Important Note
 Loading a bootstrap into your full node is not the safest procedure, and one should take precautions to make sure that the bootstrap they are loading is validated and has not been modified in any way.  By installing a bootstrap, you are bypassing the validation that is made on each block as the node processes it; as you are effectively telling your node that it has already validated the blocks and it doesn't need to do it again.  There are many attack vectors that can be exploited if someone is able to convince you to load a counterfeit bootstrap.
