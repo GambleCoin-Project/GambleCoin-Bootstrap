@@ -40,6 +40,7 @@ cd ~/.gamblecoin
 tar czf ~/gamblecoin-config.tar.gz backups/ wallet.dat gamblecoin.conf masternodes.conf
 ```
 (and copy the resulting gamblecoin-config.tar.gz off your computer to a safe place)
+
 **7. remove your "blocks", "chainstate", "sporks" and "peers.dat" files**
 ```
 pwd # to confirm you are still in your approprate directory
