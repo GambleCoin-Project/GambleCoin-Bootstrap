@@ -55,3 +55,22 @@ tar xzf ~/gamblecoin-bootstrap.tar.gz
 ```
 gamblecoind -daemon
 ```
+
+## Windows Specific Instructions
+**1. Download the bootstrap file**
+ 
+**2. Validate the checksum of the file**
+ 
+**3. Shutdown your gamblecoind and/or gamblecoin-qt**
+ 
+**4. Wait for the shutdown to complete (watch the process)**
+ 
+**5. Backup your wallet.dat off your computer**
+
+**6. Backup your gamblecoin.conf and masternodes.conf files**
+
+**7. remove your "blocks", "chainstate", "sporks" and "peers.dat" files**
+ 
+**8. unpack the bootstrap file and place the 3 directories and peers.dat file where the others were.**
+ 
+**9. start up gamblecoind and/or gamblecoin-qt**
