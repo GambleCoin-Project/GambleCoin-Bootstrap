@@ -18,4 +18,39 @@ However, as chains get longer; resynching your existing node, or initially synch
 ## Linux Specific Instructions
 **1. Download the bootstrap file**
 ```
-wget 
+wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamblecoin-bootstrap.tar.gz
+```
+**2. Validate the checksum of the file**
+```
+wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamblecoin-bootstrap.sha1
+shasum -c gamblecoin-boostrap.sha1
+```
+**3. Shutdown your gamblecoind and/or gamblecoin-qt**
+```
+gamblecoin-cli stop
+```
+**4. Wait for the shutdown to complete (watch the process)**
+```
+ps aux | grep gamblecoin
+watch ps p <pid>
+```
+**5. Backup your wallet.dat, gamblecoin.conf and masternodes.conf files off your computer**
+```
+cd ~/.gamblecoin
+tar czf ~/gamblecoin-config.tar.gz backups/ wallet.dat gamblecoin.conf masternodes.conf
+```
+(and copy the resulting gamblecoin-config.tar.gz off your computer to a safe place)
+**7. remove your "blocks", "chainstate", "sporks" and "peers.dat" files**
+```
+pwd # to confirm you are still in your approprate directory
+rm -r blocks/ chainstate/ sporks/ peers.dat
+```
+**8. unpack the bootstrap file and place the 3 directories and peers.dat file where the others were.**
+```
+pwd # to confirm you are still in your approprate directory
+tar xzf ~/gamblecoin-bootstrap.tar.gz
+```
+**9. start up gamblecoind and/or gamblecoin-qt**
+```
+gamblecoind -daemon
+```
