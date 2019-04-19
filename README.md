@@ -1,11 +1,11 @@
 ```
 Current Bootstrap
-Date:  
-Block: 
-MD5 Checksum: 705E1BA224E1F8B1BF47E45AEE5C18DC
-SHA-1 Checksum: C47B0E27FCFE0AC0A2B4B9CD37190A6590BE791F
-SHA-256 Checksum: 79D6FFC1A5C462863836197D79DC565B7E199EAE3AED60F523CCCBE7C3B6079E
-SHA-512 Checksum: 1F40B813A9A9B36A52A1B63FB4E54E988B689E6D4A312BBC2799A728E09F85E7EDF97C1914D9E51FB3092CA6BB017E7DC2A308FDE79C61DBDE2E8C95D7802F66
+Date:  19-Apr-2019
+Block: ~305700
+MD5 Checksum: 9c3569c987c64c452d2eddc038bb53e2
+SHA-1 Checksum: 4470c0d9a05e37d84e9b8f881b03b087a81d3d95
+SHA-256 Checksum: ebbef2f411858bc2c9d39b301f1db856e53f179380f3aa5f4e7739c82f58be13
+SHA-512 Checksum: 9fba218d6ed49acda8f61ea8d85ad56542202bef36b75d7dd894460f2dcda2875c01afc633e35881711326a69b7b66f2d36edbe0f4a47caf5f45b08a741f510c
 ```
 
 # Official GambleCoin Bootstrap Instructions
@@ -32,9 +32,11 @@ wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamb
 ```
 **2. Validate the checksum of the file**
 ```
-wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamblecoin-bootstrap.sha1
-shasum -c gamblecoin-boostrap.sha1
+wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamblecoin-bootstrap.sha512
+shasum -c gamblecoin-bootstrap.sha512
 ```
+(note: md5, sha1, sha256 and sha512 checksums are available, you are free to pick and chose whichever you prefer)
+
 **3. Shutdown your gamblecoind and/or gamblecoin-qt**
 ```
 gamblecoin-cli stop
