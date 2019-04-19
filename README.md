@@ -70,8 +70,12 @@ gamblecoind -daemon
 
 ## Windows Specific Instructions
 **1. Download the bootstrap file**
+Go to https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/releases and download the latest gamblecoin-bootstrap.tar.gz
  
 **2. Validate the checksum of the file**
+ Download your favorite MD5 and/or SHA checksum tool.  You can find one [here](http://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility).
+
+Browse to your 
  
 **3. Shutdown your gamblecoind and/or gamblecoin-qt**
  
