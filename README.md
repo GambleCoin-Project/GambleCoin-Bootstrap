@@ -32,7 +32,7 @@ wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/releases/downloa
 ```
 **2. Validate the checksum of the file**
 ```
-wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamblecoin-bootstrap.sha512
+wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/raw/master/gamblecoin-bootstrap.sha512
 shasum -c gamblecoin-bootstrap.sha512
 ```
 (note: md5, sha1, sha256 and sha512 checksums are available, you are free to pick and chose whichever you prefer)
