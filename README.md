@@ -28,7 +28,7 @@ However, as chains get longer; resynching your existing node, or initially synch
 ## Linux Specific Instructions
 **1. Download the bootstrap file**
 ```
-wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/blob/master/gamblecoin-bootstrap.tar.gz
+wget https://github.com/GambleCoin-Project/GambleCoin-Bootstrap/releases/download/v19.04.19-305700/gamblecoin-bootstrap.tar.gz
 ```
 **2. Validate the checksum of the file**
 ```
