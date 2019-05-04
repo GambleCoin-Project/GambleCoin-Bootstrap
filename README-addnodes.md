@@ -1,9 +1,8 @@
-####
-## Below is the official list of addnodes, that we will be maintaining along with the bootstrap file.
-## With version 1.2, there is better support in the wallet, however this list will give additional
-## nodes to aid with the support of the coin
-##
-## Date: 05-May-2019
+Below is the official list of addnodes, that we will be maintaining along with the bootstrap file.
+With version 1.2, there is better support in the wallet, however this list will give additional
+nodes to aid with the support of the coin
+# Date: 05-May-2019
+```
 addnode=209.250.227.162:12000
 addnode=116.203.139.168:12000
 addnode=159.69.108.130:12000
@@ -37,3 +36,4 @@ addnode=165.227.187.20:12000
 addnode=45.32.215.222:12000
 addnode=209.250.247.185:12000
 addnode=45.76.251.234:12000
+```
