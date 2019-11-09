@@ -1,14 +1,14 @@
 ```
 Current Bootstrap
-Date: 12-Jul-2019
-Block: 373048
+Date:  09-Nov-2019
+Block: 469101
 ```
 ## gamblecoin-bootstrap.tar.gz Checksums
 ```
-MD5 Checksum: 315b43d26f46d4c17f6d1179a01cc205
-SHA-1 Checksum: c55b59078c5e4645a0ce321ad2202264c344fa95
-SHA-256 Checksum: 3061a7e3181aea0fbde4eba91c8dcb850bc83b72e980c94aed749b852337c672
-SHA-512 Checksum: 7f9ccc1dbaca48f70b67c21a137889bce0867f6a9e7c88a141d634da869c139475704a5278651d03cd042467fa9816dc816a864cfbc2541d58c57039e4bf7d1c
+MD5 Checksum: 0250da9d7c9c300958e81601b08cb992
+SHA-1 Checksum: bbc6f41b78f2bf93f3cd3ebbc0121731ec0cc3f0
+SHA-256 Checksum: 9f4b3438a45f85015e73ceda47e1a6985c59ab7ae6e9c1f9f6455491b7eb9534
+SHA-512 Checksum: 170dd7e53ee342aa713ad76971f76a49372564b3b76af9d919dc951753ada7daef5e6d3583a7a72d7bbe709a188f89243f059f4386adccfa0b572c81a5035419
 ```
 
 # Official GambleCoin Bootstrap Instructions
